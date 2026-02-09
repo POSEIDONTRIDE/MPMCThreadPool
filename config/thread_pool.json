@@ -1,0 +1,16 @@
+{
+  "core_threads": 4,
+  "max_threads": 8,
+  "max_queue_size": 1000,
+  "keep_alive_time_ms": 60000,
+  "queue_full_policy": "BLOCK",
+  "enable_dynamic_threads": true,
+
+  "thread_creation_threshold": 2,
+  "thread_idle_timeout_ms": 500,
+  "load_check_interval_ms": 50,
+  "scale_up_threshold": 0.8,
+  "scale_down_threshold": 0.3,
+  "min_idle_time_for_removal_ms": 200,
+  "max_consecutive_idle_checks": 2
+}

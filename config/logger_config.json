@@ -1,0 +1,17 @@
+{
+    "logger": {
+        "name": "thread_pool",
+        "level": "INFO",
+        "console": {
+            "enabled": true,
+            "pattern": "[%Y-%m-%d %H:%M:%S.%e] [%^%l%$] [%n] %v"
+        },
+        "file": {
+            "enabled": true,
+            "path": "../logs/thread_pool.log",
+            "max_size": "10MB",
+            "max_files": 5,
+            "pattern": "[%Y-%m-%d %H:%M:%S.%e] [%l] [%n] [%t] %v"
+        }
+    }
+}
