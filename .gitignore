@@ -77,3 +77,4 @@ yarn.lock
 *.rej
 logs/
 
+deploy.sh
