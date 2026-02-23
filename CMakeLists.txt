@@ -40,4 +40,6 @@ target_include_directories(thread_pool_lib PUBLIC include)
 # 添加测试子目录
 add_subdirectory(test)
 
+add_subdirectory(benchmark)
+
 
